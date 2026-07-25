@@ -379,8 +379,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.34830353, y: 0.17429736, z: -0.066081874, w: 0.9186611}
+  m_LocalPosition: {x: -8.129924, y: 14.767658, z: -18.756409}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -936,6 +936,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5780c0ecae789fc488009cb297744532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bowling
+  rb: {fileID: 0}
+  forcePower: 70
 --- !u!135 &1166517104
 SphereCollider:
   m_ObjectHideFlags: 0
